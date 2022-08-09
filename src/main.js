@@ -13,6 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
@@ -23,7 +24,7 @@ import { faAppStore } from '@fortawesome/free-brands-svg-icons'
 import { faGooglePlay } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add([faAngleRight, faInstagram, faGithub, faAngleDown, faGlobe, faTwitter, faFacebook, faAppStore, faGooglePlay])
+library.add([faAngleRight, faInstagram, faGithub, faAngleDown, faGlobe, faTwitter, faFacebook, faAppStore, faGooglePlay, faAngleUp])
 
 // tailwinds
 import './index.css'

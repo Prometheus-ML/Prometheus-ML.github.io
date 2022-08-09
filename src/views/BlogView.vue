@@ -1,33 +1,34 @@
 <template>
   <NavBar></NavBar>
-  <div class="container mx-auto py-52">
-      <div class="mb-24">
+  <div class="container mx-auto pt-48">
+      <div>
         <p class="font-bold text-7xl mb-9">Blog</p>
         <p class="text-end">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Donec congue tincidunt massa, vel consequat ipsum pharetra nec. <br> Etiam vel congue urna, ut cursus nisi.</p>
       </div>
-
-      <div>
-        <div v-for="article in articleList">
-          <div class="flex gap-9 flex-wrap">
-            <div>
-              <div class="rounded-md w-96 bg-gray-300 h-56"></div>
-            </div>
-            <div class="flex-1 flex flex-col justify-between py-3">
-              <router-link :to="'/blog/view/'+article.id">
-                <div class="text-left">
-                  <p class="max-h-16 text-ellipsis overflow-hidden font-medium text-2xl mb-2">{{ article.name }}</p>
-                  <p class="font-light text-sm mb-5">{{ article.writer }} | {{ article.date }}</p>
-                  <p class="max-h-12 text-ellipsis overflow-hidden">{{ article.description }} </p>
-                </div>
-              </router-link>
-              <ul class="flex mt-5">
-                <li v-for="tag in article.tag" class="rounded-md bg-red-100 text-red-900 text-sm px-3 py-1  mr-2">{{ tag }}</li>
-              </ul>
-            </div>
+  </div>
+  <div class="container mx-auto py-24">
+    <div>
+      <div v-for="article in articleList">
+        <div class="flex gap-9 flex-wrap">
+          <div>
+            <div class="rounded-md w-96 bg-gray-300 pb-[55%]"></div>
           </div>
-          <hr class="my-5">
+          <div class="flex-1 flex flex-col justify-between py-3">
+            <router-link :to="'/blog/view/'+article.id">
+              <div class="text-left">
+                <p class="max-h-16 text-ellipsis overflow-hidden font-medium text-2xl mb-2">{{ article.name }}</p>
+                <p class="font-light text-sm mb-5">{{ article.writer }} | {{ article.date }}</p>
+                <p class="max-h-12 text-ellipsis overflow-hidden">{{ article.description }} </p>
+              </div>
+            </router-link>
+            <ul class="flex mt-5">
+              <li v-for="tag in article.tag" class="rounded-md bg-red-100 text-red-900 text-sm px-3 py-1  mr-2">{{ tag }}</li>
+            </ul>
+          </div>
         </div>
+        <hr class="my-5">
       </div>
+    </div>
   </div>
   <Footer></Footer>
 </template>

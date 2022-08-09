@@ -1,19 +1,18 @@
 <template>
   <NavBar></NavBar>
-  <div class="container mx-auto py-52">
-      <div class="mb-24">
-        <p class="font-bold text-5xl mb-9">{{article.name}}</p>
-        <p class="text-end">{{ article.writer}} | {{ article.date}}</p>
-      </div>
-
+  <div class="container mx-auto pt-48">
       <div>
-        <div class="mb-9">
-          <div id="editor"></div>
-        </div>
-        <ul class="flex mt-5">
-          <li v-for="tag in article.tag" class="bg-red-100 text-red-900 text-sm px-3 py-1  mr-2">{{ tag }}</li>
-        </ul>
+        <p class="font-bold text-7xl mb-9">New Post</p>
+        <p class="text-end">Write new post</p>
       </div>
+  </div>
+  <div class="container mx-auto py-24">
+    <div class="mb-9">
+      <div id="editor"></div>
+    </div>
+    <ul class="flex mt-5">
+      <li v-for="tag in article.tag" class="bg-red-100 text-red-900 text-sm px-3 py-1  mr-2">{{ tag }}</li>
+    </ul>
   </div>
   <Footer></Footer>
 </template>

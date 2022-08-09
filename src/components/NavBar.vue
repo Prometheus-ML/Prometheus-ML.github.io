@@ -60,8 +60,8 @@ export default {
         name: 'BLOG',
       },
       {
-        path: '/contact',
-        name: 'CONTACT',
+        path: '/recruit',
+        name: 'RECRUIT',
       }
     ]
   })

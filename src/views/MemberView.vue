@@ -1,40 +1,40 @@
 <template>
   <NavBar></NavBar>
-  <div class="container mx-auto py-52">
-      <div class="mb-24">
-        <p class="font-bold text-7xl mb-9">Member</p>
-        <p class="text-end">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Donec congue tincidunt massa, vel consequat ipsum pharetra nec. <br> Etiam vel congue urna, ut cursus nisi.</p>
-      </div>
-      <div class="mx-auto">
-        <ul class="">
-          <li v-for="gen in genList">
-            <div class="flex justify-between p-6 text-3xl">
-              <p>{{gen}}기</p>
-              <font-awesome-icon icon="fa-solid fa-angle-down" />
-            </div>
-            <hr>
-            <div >
-              <div class="p-16">
-                <ul class="flex flex-wrap justify-center gap-9">
-                  <li v-for="member in filterMemberByGen(gen)" class="w-64 text-center">
-                    <div class="w-full h-72 bg-gray-300 mb-5 rounded-md"></div>
-                    <p class="text-sm mb-2">{{member.tech}}</p>
-                    <p class="text-xl mb-2">{{member.name}} <span v-if="member.position != '' && member.position != 'normal'">/ {{ member.position }}</span></p>
-                    <div class="mt-3">
-                      <a v-if="member.homepage" class="mx-2 text-xl" href="#"><font-awesome-icon icon="fa-solid fa-globe" /></a>
-                      <a v-if="member.github" class="mx-2 text-xl" href="#"><font-awesome-icon icon="fa-brands fa-github" /></a>
-                      <a v-if="member.fackbook" class="mx-2 text-xl" href="#"><font-awesome-icon icon="fa-brands fa-facebook" /></a>
-                      <a v-if="member.instagram" class="mx-2 text-xl" href="#"><font-awesome-icon icon="fa-brands fa-instagram" /></a>
-                      <a v-if="member.twitter" class="mx-2 text-xl" href="#"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <hr>
-            </div>
-          </li>
-        </ul>
-      </div>
+  <div class="container mx-auto pt-48">
+    <div>
+      <p class="font-bold text-7xl mb-9">Member</p>
+      <p class="text-end">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Donec congue tincidunt massa, vel consequat ipsum pharetra nec. <br> Etiam vel congue urna, ut cursus nisi.</p>
+    </div>
+  </div>
+  <div class="container mx-auto py-24">
+    <ul class="">
+      <li v-for="gen in genList">
+        <div class="flex justify-between p-6 text-3xl">
+          <p>{{gen}}기</p>
+          <font-awesome-icon icon="fa-solid fa-angle-down" />
+        </div>
+        <hr>
+        <div >
+          <div class="p-16">
+            <ul class="flex flex-wrap justify-center gap-9">
+              <li v-for="member in filterMemberByGen(gen)" class="w-64 text-center">
+                <div class="w-full pb-[120%] bg-gray-300 mb-5 rounded-md"></div>
+                <p class="text-sm mb-2">{{member.tech}}</p>
+                <p class="text-xl mb-2">{{member.name}} <span v-if="member.position != '' && member.position != 'normal'">/ {{ member.position }}</span></p>
+                <div class="mt-3">
+                  <a v-if="member.homepage" class="mx-2 text-xl" href="#"><font-awesome-icon icon="fa-solid fa-globe" /></a>
+                  <a v-if="member.github" class="mx-2 text-xl" href="#"><font-awesome-icon icon="fa-brands fa-github" /></a>
+                  <a v-if="member.fackbook" class="mx-2 text-xl" href="#"><font-awesome-icon icon="fa-brands fa-facebook" /></a>
+                  <a v-if="member.instagram" class="mx-2 text-xl" href="#"><font-awesome-icon icon="fa-brands fa-instagram" /></a>
+                  <a v-if="member.twitter" class="mx-2 text-xl" href="#"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <hr>
+        </div>
+      </li>
+    </ul>
   </div>
   <Footer></Footer>
 </template>

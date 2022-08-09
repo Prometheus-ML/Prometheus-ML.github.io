@@ -5,12 +5,16 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      padding: '1.5rem',
+    },
     extend: {
       screens: {
-        'xl': '1200px',
-        
-
+        '2xl': '1300px',
       },
+      backgroundImage: {
+        'home-first-block': "url('~assets/images/강연.png')",
+      }
     },
   },
   plugins: [],

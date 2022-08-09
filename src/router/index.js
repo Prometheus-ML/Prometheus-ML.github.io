@@ -3,7 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import MemberView from '../views/MemberView.vue'
 import ProjectView from '../views/ProjectView.vue'
 import BlogView from '../views/BlogView.vue'
-import ContactView from '../views/ContactView.vue'
+import RecruitView from '../views/RecruitView.vue'
 
 import ProjectDetailView from '../views/ProjectDetailView.vue'
 import ArticleView from '../views/ArticleView.vue'
@@ -55,9 +55,9 @@ const routes = [
     props: true
   },
   {
-    path: '/contact',
-    name: 'contact',
-    component: ContactView
+    path: '/recruit',
+    name: 'recruit',
+    component: RecruitView
   }
 ]
 
