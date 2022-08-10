@@ -13,7 +13,12 @@ module.exports = {
         '2xl': '1300px',
       },
       backgroundImage: {
-        'home-first-block': "url('~assets/images/강연.png')",
+        'main-banner': "url('~assets/images/main.jpeg')",
+        'home-first-block': "url('~assets/images/class.png')",
+        'home-second-block': "url('~assets/images/study.jpeg')",
+      },
+      colors: {
+        'black-alpha': 'rgba(0, 0, 0, 0.5)'
       }
     },
   },

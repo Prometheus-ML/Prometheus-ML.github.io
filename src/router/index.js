@@ -16,44 +16,44 @@ const routes = [
     name: 'home',
     component: HomeView
   },
-  {
-    path: '/login',
-    name: 'login',
-    component: LoginView
-  },
-  {
-    path: '/member',
-    name: 'member',
-    component: MemberView
-  },
-  {
-    path: '/project',
-    name: 'project',
-    component: ProjectView
-  },
-  {
-    path: '/project/view/:id',
-    name: 'project_view',
-    component: ProjectDetailView,
-    props: true
-  },
-  {
-    path: '/blog',
-    name: 'blog',
-    component: BlogView
-  },
-  {
-    path: '/blog/view/:id',
-    name: 'article_view',
-    component: ArticleView,
-    props: true
-  },
-  {
-    path: '/blog/edit/:id',
-    name: 'article_edit_view',
-    component: ArticleEditView,
-    props: true
-  },
+  // {
+  //   path: '/login',
+  //   name: 'login',
+  //   component: LoginView
+  // },
+  // {
+  //   path: '/member',
+  //   name: 'member',
+  //   component: MemberView
+  // },
+  // {
+  //   path: '/project',
+  //   name: 'project',
+  //   component: ProjectView
+  // },
+  // {
+  //   path: '/project/view/:id',
+  //   name: 'project_view',
+  //   component: ProjectDetailView,
+  //   props: true
+  // },
+  // {
+  //   path: '/blog',
+  //   name: 'blog',
+  //   component: BlogView
+  // },
+  // {
+  //   path: '/blog/view/:id',
+  //   name: 'article_view',
+  //   component: ArticleView,
+  //   props: true
+  // },
+  // {
+  //   path: '/blog/edit/:id',
+  //   name: 'article_edit_view',
+  //   component: ArticleEditView,
+  //   props: true
+  // },
   {
     path: '/recruit',
     name: 'recruit',
