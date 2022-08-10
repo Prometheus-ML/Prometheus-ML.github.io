@@ -18,7 +18,10 @@ module.exports = {
         'home-second-block': "url('~assets/images/study.jpeg')",
       },
       colors: {
-        'black-alpha': 'rgba(0, 0, 0, 0.5)'
+        'black-alpha': 'rgba(0, 0, 0, 0.7)'
+      },
+      wordBreak: {
+        'kepp-all': 'keep-all'
       }
     },
   },
