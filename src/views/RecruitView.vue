@@ -87,12 +87,12 @@
         <p class="mb-5">자주 묻는 질문</p>
       </div>
       <div class="grid grid-cols-1 gap-5">
-        <div v-for="(item, index) in faq" class="w-full bg-slate-100 rounded-md p-10">
+        <div v-for="(item, index) in faq" class="w-full bg-slate-100 rounded-md p-10 cursor-pointer" @click="openFaq(index, !faq[index].on)">
           <div>
             <div class="flex justify-between items-center  gap-x-5 font-bold md:text-2xl">
               <p>{{item.title}}</p>
-              <font-awesome-icon v-if="!item.on" @click="openFaq(index, true)" icon="fa-solid fa-angle-down" />
-              <font-awesome-icon v-if="item.on" @click="openFaq(index, false)" icon="fa-solid fa-angle-up" />
+              <font-awesome-icon v-if="!item.on"  icon="fa-solid fa-angle-down" />
+              <font-awesome-icon v-if="item.on" icon="fa-solid fa-angle-up" />
             </div>
             <p v-if="item.on && Array.isArray(item.value)" class="mt-5">
               <ul class="ml-5 list-disc list-outside">

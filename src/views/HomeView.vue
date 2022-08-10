@@ -11,14 +11,14 @@
           <div class="rounded-md w-full bg-home-first-block bg-center bg-cover pb-[55%] mb-9"></div>
           <div class="text-left">
             <p class="font-bold text-2xl mb-3">고등학교 코딩 교육</p>
-            <p>프로그래밍은 상상하는 바를 가장 빠르게 구현할 수 있는 도구 중 하나입니다. <br class="md:hidden">프로메테우스는 10대들에게 도움이 되고자 2022년 7월, 양재 고등학교를 시작으로 고등학생들에게 코딩과 인공지능 교육을 하고 있습니다.</p>
+            <p>프로그래밍은 상상하는 바를 가장 빠르게 구현할 수 있는 도구 중 하나입니다. <br class="hidden md:inline">프로메테우스는 10대들에게 도움이 되고자 2022년 7월, 양재고등학교를 시작으로 학생들에게 코딩과 인공지능 교육을 하고 있습니다.</p>
           </div>
         </div>
         <div class="w-full">
           <div class="rounded-md w-full bg-home-second-block bg-center bg-cover pb-[55%] mb-9"></div>
           <div class="text-left">
             <p class="font-bold text-2xl mb-3">스터디&프로젝트</p>
-            <p>각 분야별로 팀을 꾸려 문제를 정의하고 인공지능으로 해결합니다.<br class="md:hidden">인공지능을 어떻게 활용할지 끊임없이 고민하며 사고력과 응용력을 키웁니다.</p>
+            <p>각 분야별로 팀을 꾸려 문제를 정의하고 인공지능으로 해결합니다. <br class="hidden md:inline">인공지능을 어떻게 활용할지 끊임없이 고민하며 사고력과 응용력을 키웁니다.</p>
           </div>
         </div>
         <div class="md:col-span-2 w-full">
