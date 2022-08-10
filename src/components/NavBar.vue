@@ -2,7 +2,7 @@
   <nav class="border-gray-200 px-2 sm:px-4 py-2.5 bg-transparent w-full fixed z-50 ease-out transition-all drop-shadow-sm" :class="{'bg-white' : background } " >
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <a href="" class="flex items-center">
-          <img :src="require('@/assets/images/logo.svg')" class="mr-3 h-6 sm:h-9" alt="Prometheus Logo" />
+          <img :src="require('@/assets/logo.png')" class="mr-3 h-6 sm:h-9" alt="Prometheus Logo" />
       </a>
       <button @click="fold = !fold" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg md:hidden" >
         <span class="sr-only">Open main menu</span>
