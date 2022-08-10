@@ -16,7 +16,7 @@
       </div>
   </div>
   <div class="container mx-auto py-16 md:py-24">
-      <div class="text-center mb-14 md:pb-20">
+      <div class="text-center mb-14 md:mb-20">
         <p class="font-bold text-4xl md:text-6xl mb-5">모집 개요</p>
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-9 ">
@@ -47,7 +47,7 @@
       </div>
   </div>
   <div class="container mx-auto py-16 md:py-24">
-      <div class="text-center mb-14 md:pb-20">
+      <div class="text-center mb-14 md:mb-20">
         <p class="font-bold text-4xl md:text-6xl mb-5">모집 일정</p>
       </div>
       <div class="grid grid-cols-1 xl:grid-cols-4 gap-9 ">
@@ -82,7 +82,7 @@
       </div>
   </div>
   <div class="container mx-auto py-16 md:py-24">
-      <div class="text-center mb-14 md:pb-20">
+      <div class="text-center mb-14 md:mb-20">
         <p class="font-bold text-4xl md:text-6xl mb-5">FAQ</p>
         <p class="mb-5">자주 묻는 질문</p>
       </div>

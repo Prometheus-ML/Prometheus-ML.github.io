@@ -38,7 +38,7 @@
     <!-- <img class="block absolute w-1/2 translate-x-[-50%] top-1/2 left-1/2" :src="require('@/assets/images/project_back.svg')"/> -->
     <!-- <img class="block absolute w-full translate-y-[-50%] top-1/2 " :src="require('@/assets/images/project_back_pattern.svg')"/> -->
     <div class="container py-16 md:py-24 mx-auto relative z-10 " >
-      <div class="text-center mb-14 md:pb-20">
+      <div class="text-center mb-14 md:mb-20">
         <p class="font-bold text-4xl md:text-6xl mb-5">ACTIVITIES</p>
         <p class="mb-5">정기모임/세미나/프로젝트/친목활동/MT</p>
         <router-link to="/recruit" class="font-medium text-red-700">더 알아보기 <font-awesome-icon icon="fa-solid fa-angle-right" /> </router-link>
@@ -51,7 +51,7 @@
   </div>
 
   <div class="container mx-auto py-16 md:py-24">
-      <div class="text-center mb-14 md:pb-20">
+      <div class="text-center mb-14 md:mb-20">
         <p class="font-bold text-4xl md:text-6xl mb-5">Blog</p>
         <p class="mb-5">프로메테우스 기술 블로그</p>
         <router-link to="/#" class="font-medium text-red-700">더 알아보기 <font-awesome-icon icon="fa-solid fa-angle-right" /> </router-link>
