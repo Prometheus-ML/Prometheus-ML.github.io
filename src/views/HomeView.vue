@@ -45,7 +45,7 @@
       </div>
 
       <div class="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-9 relative z-10">
-        <div v-for="index in gallary_list.length-1" class="rounded-md inline-block w-full mb-8 bg-center bg-cover" :style="{height: get_random_height(), backgroundImage: get_gallary(shuffle_gallary[index])} "></div>
+        <div v-for="index in gallary_list.length" class="rounded-md inline-block w-full mb-8 bg-center bg-cover" :style="{height: get_random_height(), backgroundImage: get_gallary(shuffle_gallary[index-1])} "></div>
       </div>
     </div>
   </div>
