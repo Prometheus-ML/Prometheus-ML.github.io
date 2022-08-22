@@ -11,7 +11,7 @@
         <div class="flex-1 text-center">
           <p class="font-bold text-2xl mb-9">프로메테우스 2기 가입 신청</p>
           <p class="mb-9">프로메테우스는 대학생 최고의 인공지능 커뮤니티가 되기 위해 함께 성장할 동료를 모집하고 있습니다. <br>도전과 열정이 어울리는 당신이라면 대학생 인공지능 단체 프로메테우스와 함께 해주십시오.</p>
-          <a href="#" target="_blank" class="rounded-md px-5 py-2 text-lg text-medium bg-red-100 text-red-900">가입 기간이 종료됐습니다.</a>
+          <a href="#" target="_blank" class="rounded-md px-5 py-2 text-lg text-medium bg-red-100 text-red-900">가입 기간이 종료됐습니다.</a> 
         </div>
       </div>
   </div>
